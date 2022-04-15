@@ -15,7 +15,7 @@ while(novoJogo == true){
     console.log('Você passou por vários desafios nessa sua missão até aqui...');
     prompt('[ENTER]');
     console.clear();
-    console.log('Desertos escaudantes...');
+    console.log('Desertos escaldantes...');
     prompt('[ENTER]');
     console.clear();
     console.log('Florestas tortuosas...');
@@ -24,7 +24,7 @@ while(novoJogo == true){
     console.log('Pântanos intermináveis...');
     prompt('[ENTER]');
     console.clear();
-    console.log('Enfrentou inimígos poderosos...');
+    console.log('Enfrentou inimigos poderosos...');
     prompt('[ENTER]');
     console.clear();
     console.log('Gigantes de pedra, dragões flamejantes e feras disformes...');
@@ -33,7 +33,7 @@ while(novoJogo == true){
     console.log('Mas o maior dos seus desafios começa agora...');
     prompt('[ENTER]');
     console.clear();
-    console.log('Você descobriu a caverna, escura e desolada, era esse o covíl do terrível mago de gelo...');
+    console.log('Você descobriu a caverna, escura e desolada, era esse o covil do terrível mago de gelo...');
     prompt('[ENTER]');
     console.clear();
     console.log('E sim...');
@@ -236,7 +236,7 @@ while(novoJogo == true){
         console.log('Você não se preparou o suficiente...');
         prompt('[ENTER]');
         console.clear()
-        console.log('Você perdeu a batalha mas consegue fugir dalí...');
+        console.log('Você perdeu a batalha mas consegue fugir dali...');
         prompt('[ENTER]');
         console.clear()
         console.log('Mesmo que bem ferido... ');
@@ -256,7 +256,7 @@ while(novoJogo == true){
             console.clear();
             console.log('Digite "s" para SIM e "n" para NÃO e depois aperte "ENTER"');
             console.log('New Game? S/N');
-            resposta = prompt().toUpperCase();
+            resp = prompt().toUpperCase();
         }
 
     }else if(sim == 3){
