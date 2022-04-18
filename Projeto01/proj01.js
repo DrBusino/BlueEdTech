@@ -369,6 +369,7 @@ while(novoJogo == true){
     }else{
         console.clear()
         prompt('ERROR 01')
+        novoJogo = false;
     }
 }
 
@@ -377,7 +378,8 @@ while(novoJogo == true){
 
 
 
-console.log(sim, nao);
+//console.log(sim, nao); ---> espécie de debug, caso necessário;
+//'Error 01' ---> caso os a quantidade de 'sim' for discrepante, erro claro no sistema.
 
 
 
