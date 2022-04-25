@@ -286,7 +286,7 @@ while(novoJogo == true){
             console.clear();
             console.log('Digite "s" para SIM e "n" para NÃO e depois aperte "ENTER"');
             console.log('New Game? S/N');
-            resposta = prompt().toUpperCase();
+            resp = prompt().toUpperCase();
         }
     }else if(sim == 4){
         console.log('VITÓRIA!...');
@@ -318,7 +318,7 @@ while(novoJogo == true){
             console.clear();
             console.log('Digite "s" para SIM e "n" para NÃO e depois aperte "ENTER"');
             console.log('New Game? S/N');
-            resposta = prompt().toUpperCase();
+            resp = prompt().toUpperCase();
         }
 
     }else if(sim == 5){
