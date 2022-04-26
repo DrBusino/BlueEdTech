@@ -176,8 +176,6 @@ while(newGame == true){
         newGame = true;
     }else if(resposta == 'N'){
         newGame = false;
-    }else{
-        break;
     }
     contWin = 0;
     contLse = 0;
