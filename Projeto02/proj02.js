@@ -15,10 +15,6 @@ let contLse = 0;
 let lista = [pedra, papel, tesoura];
 
 
-console.log('quais armas deverão ser utilizadas?');
-pedra = prompt('primeira arma: ');
-papel = prompt ('segunda arma: ');
-tesoura = prompt('terceira arma: ');
 
 console.log('O que você escolhe?');
 console.log(`[0] --> ${pedra}`);
@@ -26,7 +22,7 @@ console.log(`[1] --> ${papel}`);
 console.log(`[2] --> ${tesoura}`);
 let randomNum = Math.floor(Math.random()*3);
 
-let resp = prompt('> ');
+let resp = prompt();
 
 if (randomNum == resp ){
     prompt(`${randomNum} x ${resp} --- empate`);
