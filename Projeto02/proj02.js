@@ -27,15 +27,58 @@ let newGame = true;
 while(newGame == true){
     newGame == false;
     console.clear();
-    console.log('Você está preparado para essa grande batalha de sorte?');
-    console.log('Não importa quel foi a resposta, na verdade');
+    console.log('O jogo é bem simples:');
+    console.log('Você escolhe uma arma e seu inimigo também');
+    console.log('O Jogo é baseado na sorte mas é importante saber qual arma vence outra');
+    console.log('Vamos lá');
+    prompt('ENTER');
+    console.log('A Lança e escudo vence o Arco e Flecha');
+    console.log('O Machado de suas mãos vence a Lança e escudo');
+    console.log('E finalmente...')
+    console.log('O Arco e Flecha vence o Machado de duas mãos')
+    prompt('ENTER');
+    console.log('Gostaria que eu repita as regras?[S/N]')
+    let resp1 = prompt().toUpperCase();
+
+    while(resp1 != 'S' && resp1 != 'N'){
+
+        console.clear();
+        console.log('Gostaria que eu repita as regras?[S/N]');
+        console.log('Digite [S] para sim e [N] para não')
+        resp1 = prompt().toUpperCase();
+
+
+    }while(resp1 == 'S'){
+        console.log('Vamos lá ');
+        prompt('ENTER');
+        console.log('A Lança e escudo vence o Arco e Flecha');
+        console.log('O Machado de suas mãos vence a Lança e escudo');
+        console.log('E finalmente...')
+        console.log('O Arco e Flecha vence o Machado de duas mãos')
+        prompt('ENTER');
+        console.clear();
+        console.log('Gostaria que eu repita as regras?[S/N]');
+        console.log('Digite [S] para sim e [N] para não');
+        resp1 = prompt().toUpperCase();
+    }
+
+
+
+    console.log('Prepare-se para a grande batalha');
     console.log('O jogo já começou!');
-    prompt();
+    prompt('ENTER');
     console.clear();
-    console.log('Quantas rodadadas o jogo deve ter?')
+    console.log('Quantas rodadadas o jogo deve ter?');
     totalPartidas = prompt();
+
+    while(isNaN(totalPartidas) || totalPartidas % 1 != 0 || totalPartidas <= 0){
+        console.clear();
+        console.log('Digite um número inteiro e positivo');
+        console.log('Quantas rodadadas o jogo deve ter?');
+    }
+
     console.log(`Você jogará ${totalPartidas} partidas`);
-    prompt();
+    prompt('ENTER');
 
 
     for(let i = 0; i < totalPartidas; i++){
