@@ -16,6 +16,7 @@ let lista = [pedra, papel, tesoura];
 
 
 
+
 console.log('O que você escolhe?');
 console.log(`[0] --> ${pedra}`);
 console.log(`[1] --> ${papel}`);
