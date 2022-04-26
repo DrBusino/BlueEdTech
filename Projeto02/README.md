@@ -17,10 +17,19 @@
 
 
 
+<<<<<<< HEAD
 ### :zap: Lança e escudo :heavy_check_mark: VENCE :x: Arco e flecha 
 
 ### :zap: Machado de duas mãos:heavy_check_mark:  VENCE :x: Lança e escudo
 
+=======
+### :zap: Lança e escudo :heavy_check_mark: VENCE :x: Arco e flecha
+
+
+### :zap: Machado de duas mãos:heavy_check_mark:  VENCE :x: Lança e escudo                
+
+        
+>>>>>>> f4a3856b20e8b071c8237c3062ff0b74224f51ea
 ### :zap: Arco e flecha:heavy_check_mark: VENCE :x:  Machado de duas mãos
 
 
